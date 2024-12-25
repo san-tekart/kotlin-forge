@@ -32,6 +32,7 @@ import study.intermediate.couroutine.testStructuredConcurrency
 import study.intermediate.couroutine.testRepeat
 import study.intermediate.couroutine.testRepeatByThread
 import study.intermediate.couroutine.testGlobalCouroutine
+import study.intermediate.couroutine.testSuspendResume
 class App {
     val greeting: String
         get() {
@@ -86,5 +87,6 @@ fun main() {
     //testStructuredConcurrency()
     //testRepeat()  
     //  testRepeatByThread()
-    testGlobalCouroutine()
+    //testGlobalCouroutine()
+    testSuspendResume()
 }
