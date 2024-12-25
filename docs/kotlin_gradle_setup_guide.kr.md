@@ -16,7 +16,7 @@ Run with --stacktrace option to get the stack trace. Run with --info or --debug 
 
 * Get more help at https://help.gradle.org
 
-## 2. 우분투에서 JAVA_HOME 확인 및 추가
+### 2. 우분투에서 JAVA_HOME 확인 및 추가
 JAVA_HOME 환경 변수를 확인하고 설정하는 방법:
 
 echo $JAVA_HOME
